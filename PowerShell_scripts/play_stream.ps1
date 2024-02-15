@@ -1,0 +1,1 @@
+ffplay -infbuf -i 'srt://localhost:10340?mode=listener'

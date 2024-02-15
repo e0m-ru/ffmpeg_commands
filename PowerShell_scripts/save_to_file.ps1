@@ -1,0 +1,1 @@
+ffmpeg -y -i 'srt://localhost:10340?mode=listener' -c:v copy -map 0:v -map 0:1 -map 0:2 -map 0:3 -map 0:4 -map 0:5 .\test.mov
